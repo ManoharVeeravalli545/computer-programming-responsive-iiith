@@ -219,6 +219,7 @@ window.view = {
 		else if ( this.lastRedDiv.id === 'line7' ) {
 			this.setKey()
 			this.highlightNextStep()
+			this.showImage()
 			this.j = this.i - 1
 			this.key = this.numbers[this.i]
 		}
