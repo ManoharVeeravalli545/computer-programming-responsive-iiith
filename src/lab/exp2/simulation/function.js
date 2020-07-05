@@ -1,5 +1,5 @@
 window.view = {
-	i: 0,
+  i: 0,
   area: 0,
   totalArea: 0,
   correctInputs: 0,
@@ -457,7 +457,6 @@ window.view = {
   },
 };
 
-window.onload = function() { view.init() } 
 window.onload = function () {
   view.init();
-}
+};
